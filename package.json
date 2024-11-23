@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon api/app.js",
     "start": "node api/app.js",
-    "postinstall": "prisma generate --schema=api/lib/prisma/schema.prisma",
+    "postinstall": "prisma generate --schema=api/prisma/schema.prisma",
     "build": "npm install && npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
